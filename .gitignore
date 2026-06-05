@@ -1,0 +1,46 @@
+# Build outputs
+build/
+dist/
+out/
+bin/
+obj/
+Debug/
+Release/
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.dylib
+*.a
+*.lib
+*.elf
+*.hex
+*.bin
+*.map
+*.lst
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Dependency directories
+node_modules/
+
+# Editor and OS files
+.vscode/
+!.vscode/settings.json
+!.vscode/extensions.json
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
